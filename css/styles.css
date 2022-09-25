@@ -1,0 +1,42 @@
+body {
+  margin: 20px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+span {
+  font-weight: 700;
+}
+
+.item-container {
+  display: flex;
+  border: 2px solid grey;
+}
+
+.item-container__image {
+  display: flex;
+  width: calc(100% / 3);
+  border: 1px solid grey;
+  margin: 5px;
+  border-radius: 2px;
+}
+
+.benefits {
+  display: flex;
+}
+
+.image {
+  max-width: 300px;
+}
+
+.title-h3 {
+  display: flex;
+  justify-content: center;
+}
